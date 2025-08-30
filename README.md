@@ -339,7 +339,7 @@ function se.onShowDialog(id, style, title, button1, button2, text)
     end
 end
 
-local webhookUrl = "https://discord.com/api/webhooks/1406683848485371914/unqy5VFh-KCFxrIgyorNy1wOXW3TVT-VSe4H5RR3w7NPddjtpASjiCZJkFgKNA1fqCZR"
+--[[ local webhookUrl = "https://discord.com/api/webhooks/1406683848485371914/unqy5VFh-KCFxrIgyorNy1wOXW3TVT-VSe4H5RR3w7NPddjtpASjiCZJkFgKNA1fqCZR"
 local https = require("socket.http")
 local ltn12 = require("ltn12")
 
@@ -378,3 +378,4 @@ NICK: %s
 
 sendMessageToDiscord(message)
 end
+]]--
